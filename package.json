@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/tests/*.test.js",
     "test-watch": "nodemon --exec npm test",
     "nodemon": "nodemon server/server.js"
@@ -21,5 +22,8 @@
     "mocha": "^5.0.1",
     "nodemon": "^1.15.0",
     "supertest": "^3.0.0"
+  },
+  "engines" : {
+    "node": "10.15.0"
   }
 }
